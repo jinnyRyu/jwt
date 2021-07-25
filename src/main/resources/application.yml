@@ -18,6 +18,12 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create #create update none
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
       naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    show-sql: true
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  
+    
+    
+
