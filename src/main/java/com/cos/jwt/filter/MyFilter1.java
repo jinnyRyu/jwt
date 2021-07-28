@@ -25,6 +25,8 @@ public class MyFilter1 implements Filter {
                 System.out.println(headerAuth);
                 System.out.println("filter1");
                 chain.doFilter(req, res);
+                test
+              
     }
 
     
